@@ -52,7 +52,7 @@ public class SecurityConfig<S extends Session> extends WebSecurityConfigurerAdap
                         a.anyRequest().authenticated())
                 .formLogin(f -> f
                         .defaultSuccessUrl("/")
-                        .loginPage("/login") // Custom Login Page 를 구현 할 경우
+//                        .loginPage("/login") // Custom Login Page 를 구현 할 경우
                         .usernameParameter("email")
                         .passwordParameter("password")
                         .failureUrl("/login")
