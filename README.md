@@ -30,4 +30,4 @@
 
 - maximumSessions의 값을 1로 설정했고, maxSessionsPreventsLogin을 false로 설정하였기 때문에 로그인 되어있는 브라우저 이외에 브라우저에서 같은 계정으로 로그인 했을 경우 <b>기존에 로그인되어 있는 브라우저는 자동으로 로그아웃 되며 Login 화면으로 이동</b>함.
 
-- 블로그 : 
+- 블로그 : https://wangtak.tistory.com/23
